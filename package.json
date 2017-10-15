@@ -1,0 +1,19 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "An exercise in MySQL and Node",
+  "main": "bamazonCustomer.js",
+  "dependencies": {
+    "columnify": "^1.5.4",
+    "inquirer": "^3.3.0",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "mysql -h 127.0.0.1 -u root -p  bamazon < schema.sql"
+  },
+  "keywords": ["bamazon"],
+  "author": "Michael Lowe",
+  "license": "ISC"
+}
